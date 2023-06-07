@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --c-dark: #1d1d1d;
+  --c-light: #fff;
+  --n-cellSize: 15px;
+}
+
+body {
+  background-color: var(--c-dark);
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+#app .cell {
+  display: block;
+  width: var(--n-cellSize);
+  height: var(--n-cellSize);
+  border-radius: 10%;
+}
+#app .cell[data-alive=false] {
+  background-color: var(--c-dark);
+}
+#app .cell[data-alive=true] {
+  background-color: var(--c-light);
+}/*# sourceMappingURL=style.css.map */
