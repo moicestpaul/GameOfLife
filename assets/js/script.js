@@ -29,7 +29,7 @@ function initMatrix(patern = 0) {
 
     const winWidth = window.innerWidth
     const winHeight = window.innerHeight
-    const tileSize = 15 // in px, chane also size of .cell css style
+    const tileSize = 16 // in px, chane also size of .cell css style
 
     const matrixWidth = Math.floor(winWidth / tileSize)
     const matrixHeight = Math.floor(winHeight / tileSize)

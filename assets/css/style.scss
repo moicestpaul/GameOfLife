@@ -7,7 +7,7 @@
     --c-dark: #1d1d1d;
     --c-light: #fff;
 
-    --n-cellSize: 15px;
+    --n-cellSize: 16px;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
         width: var(--n-cellSize);
         height: var(--n-cellSize);
 
-        border-radius: 10%;
+        border-radius: 0%;
 
         &[data-alive='false'] {
             background-color: var(--c-dark);
